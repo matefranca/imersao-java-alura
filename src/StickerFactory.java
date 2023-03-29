@@ -28,7 +28,7 @@ public class StickerFactory {
 		graphics.setColor(Color.red);
 		graphics.drawString("AWESOME", width / 2 - 30, newHeight - 120);
 
-		ImageIO.write(newImage, "png", new File("exit/" + fileName));
+		ImageIO.write(newImage, "png", new File(fileName));
 	}
 
 	public static void main(String[] args) throws Exception {
